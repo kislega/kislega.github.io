@@ -5,23 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(212, 252, 205);
+        }
+
+        .vissza-gomb,.Dohánybolt-gomb,.kertépítés-gomb,.söröző-gomb
+        {
+            display: inline-block;
+            background-color: white;
+            width: 150px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            color: red;
+            border: 3px solid blue;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            transition: 0.2s;
+        }
+
+        .vissza-gomb:hover,.Dohánybolt-gomb:hover,.kertépítés-gomb:hover,.söröző-gomb:hover
+        {
+            background-color: yellow;
+            color: black;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
+    <a href="https://www.kapu.hu/" class="vissza-gomb">Kapu</a>
+
+    <!-- 
+    <a href="https://www.kapu.hu/" style="display:inline-block;width:120px;height:25px;
+    background-color:red;color:white;
+    text-align:center;line-height:25px;text-decoration:none;font-weight:bold;">Kapu
+    </a>  -->
+
+
+
     <div style="color: blue;text-align: center;">
         <h1> <b>Welcome to my website!</b></h1>
     </div>
 
-    <div style="color: blue;text-align: center;">
-        <h2><a href="Dohanybolt\index.html">Dohánybolt</a></h2>
+    <div style="text-align: center;margin:50px;">
+        <a href="Dohanybolt\index.html" class="Dohánybolt-gomb">Dohánybolt</a>
     </div>
 
-    <div style="color: blue;text-align: center;">
-        <h2><a href="kertepites\index.html">Kertépítés</a></h2>
+    <div style="text-align: center;margin:50px;">
+        <a href="kertepites\index.html" class="kertépítés-gomb">Kertépítés</a>
     </div>
 
-    <div style="color: blue;text-align: center;">
-        <h2><a href="sorozo\söröző.html">Söröző</a></h2>
+    <div style="text-align: center;margin:50px;">
+        <a href="sorozo\söröző.html" class="söröző-gomb">Söröző</a>
     </div>
 
 
