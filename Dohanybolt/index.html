@@ -6,11 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bolt.css">
+    <style>
+        .button-gomb {
+            display: inline-block;
+            background-color: white;
+            width: 120px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            color: red;
+            border: 2px solid blue;
+            border-radius: 100px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            transition: 0.2s;
+        }
+
+        .button-gomb:hover {
+            background-color: rgb(149, 255, 198);
+            color: black;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-    <button><a href="/index.html">Kilépés</a></button>
-    
+    <a href="/index.html" class="button-gomb">Kilépés</a>
+
     <p>
         Pe-Mi-La Dohánybolt
     </p>
